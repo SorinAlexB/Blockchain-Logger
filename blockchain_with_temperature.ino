@@ -4,8 +4,8 @@
 #include <DHT.h>
 #include <SHA256.h>
 
-char ssid[] = "Sorin Iphone";
-char pass[] = "12345678";
+char ssid[] = "Network Name";
+char pass[] = "Network Password";
 WiFiServer server(80);
 int status = WL_IDLE_STATUS;
 
